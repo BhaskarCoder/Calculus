@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  display:flex;
+  justify-content:center;
+  background:#21E4B6;
+}
+.container{
+  width:22em;
+  height:40em;
+  border: 10px solid black;
+  border-radius:10px;
+  margin-top:40px;
+  display:grid;
+  grid-template-columns:repeat(5,auto);
+  overflow:auto;
+}
+.screen{
+  grid-column:1/6;
+  border-bottom:2px solid #A4A4A4;
+  background: #FFFFFF;
+  font-size:50px;
+  text-align:right;
+  padding-right:5px;
+  word-wrap:break-word;
+}
+#romanBtn{
+  grid-column:1/5;
+}
+.btn{
+  font-size:35px;
+  border:none;
+  background:#000000;
+  color:#FFFFFF;
+}
+.btn:nth-child(2),.btn:nth-child(7),.btn:nth-child(12),.btn:nth-child(17),.btn:nth-child(22){
+  border-left:1px solid white;
+}
+.btn:nth-child(6),.btn:nth-child(11),.btn:nth-child(16),.btn:nth-child(21),.btn:nth-child(23){
+  border-right:1px solid white;
+}
+.btn:hover{
+  outline:none;
+  font-weight:bolder;
+  color:#F6772C;
+}
