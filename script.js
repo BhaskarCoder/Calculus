@@ -1,3 +1,4 @@
+alert("Developed by Bhaskar Anand");
 const buttons = document.querySelectorAll('.btn');
 const screen = document.getElementById('screen');
 let screenValue = '';
